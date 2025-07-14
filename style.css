@@ -45,3 +45,122 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Example: Style buttons on hover */
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Example: Style lists */
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}      
+
+/* Example: Style list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Example: Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}  
+
+/* Example: Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Example: Style table headers */
+th {
+    background-color: #38495c;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Example: Style table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Example: Style form elements */
+form {
+    margin: 20px 0;
+}
+
+/* Example: Style input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="subject"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}  
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}   
+
+/* Example: Style submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Example: Style submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Example: Style navigation */
+nav {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}  
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Example: Style footer */
+footer {
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Example: Style sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ini menambahkan shadow */
+    border-radius: 8px; /* Opsional: buat sudutnya membulat agar lebih halus */
+}
