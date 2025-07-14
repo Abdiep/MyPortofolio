@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Reset some default browser styles */
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Example: Style headings */
+h1 {
+    color: #333;
+    text-align: left;
+}
+
+/* Example: Style paragraphs */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Background color for the body */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Example: Style links */
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+/* Example: Style links on hover */
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Example: Style buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
