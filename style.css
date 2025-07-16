@@ -1,6 +1,6 @@
 /* style.css */
 
-/* Header styles */
+/* Header */
 header {
     background-color: #38495c;
     color: white;
@@ -9,103 +9,98 @@ header {
     border-radius: 5px;
 }
 
-/* Reset some default browser styles */
+/* body */
 body {
-    margin: 10px;
+    max-width: 1200px;
+    margin: auto;
     padding: 10px;
+    background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif
 }
 
-/* Example: Style headings */
-h1 {
-    color: #333;
-    text-align: left;
-}
 
-/* Example: Style paragraphs */
+/* h1-h6 */
+h1 {
+    color: maroon;
+    font-weight: bold;
+}
+/* paragraphs */
 p {
     color: #555;
-    line-height: 1.6;
+    text-align: justify;
 }
 
-/* Background color for the body */
-body {
-    background-color: #f4f4f4;
-    font-size: 14px;
-}
-
-/* Example: Style links */
+/* Style links */
 a {
-    color: #555;
+    color: maroon;
     text-decoration: none;
 }
 
-/* Example: Style links on hover */
 a:hover {
-    color: #0056b3;
+    color: #555;
     text-decoration: underline;
 }
 
-/* Example: Style buttons */
+/* buttons */
 button {
-    background-color: #007bff;
+    background-color: #555;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
-/* Example: Style buttons on hover */
+/* Style buttons on hover */
 button:hover {
-    background-color: #0056b3;
+    background-color: maroon;
     color: white;
 }
 
-/* Example: Style lists */
+/* Style lists */
 ul, ol {
     padding-left: 20px;
     margin: 10px 0;
 }      
 
-/* Example: Style list items */
+/* Style list items */
 li {
     margin-bottom: 5px;
 }
 
-/* Example: Style images */
+/* Style images */
 img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }  
 
-/* Example: Style tables */
+/* Style tables */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
 
-/* Example: Style table headers */
+/* Style table headers */
 th {
-    background-color: #38495c;
+    background-color: #555;
     color: white;
     padding: 10px;
     text-align: left;
 }
 
-/* Example: Style table cells */
+/* Style table cells */
 td {
     padding: 10px;
     border: 1px solid #ddd;
 }
 
-/* Example: Style form elements */
+/* Style form elements */
 form {
     margin: 20px 0;
 }
 
-/* Example: Style input fields */
+/* Style input fields */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -135,12 +130,12 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
-/* Example: Style submit button on hover */
+/* Style submit button on hover */
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Example: Style navigation */
+/* Style navigation */
 nav {
     position: sticky;
     top: 0;
@@ -158,9 +153,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Example: Style footer */
+/* Style footer */
 footer {
-    background-color: none;
+    background-color: #343a40;
     color: white;
     text-align: center;
     padding: 10px;
@@ -168,7 +163,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Example: Style sections */
+/* Style sections */
 section {
     margin: 20px 0;
     padding: 20px;
@@ -177,6 +172,18 @@ section {
     border-radius: 8px; /* Opsional: buat sudutnya membulat agar lebih halus */
 }
 
-a {
-    color:blue;
+@media (min-width: 768px) {
+    section {
+        min-height: 100vh;
+    }
+}
+
+/* Flexbox */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    text-align: center;
 }
