@@ -155,12 +155,16 @@ nav a:hover {
 
 /* Style footer */
 footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    background-color: #343a40; /* warna bisa diganti sesuai tema */
+    padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: gray;
+    text-align: center; /* pastikan ini ada */
 }
 
 /* Style sections */
